@@ -4,6 +4,6 @@ A website that shows the evolution of the landscape of Middle Earth througth the
 ## How to Run
   - Download the project from Github
   - Run the project through an IDE
-  - Install Angular
+  - Install Angular with **npm install -g @angular/cli**
   - Run the project using the command **ng serve**
 
