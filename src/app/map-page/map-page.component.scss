@@ -49,7 +49,7 @@ input[type="range"] {
 
 .mapView {
   margin: 1.5rem auto 0;
-  max-width: 1200px;
+  max-width: 900px;
   background: #f3e7c3;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 1rem;
@@ -59,6 +59,7 @@ input[type="range"] {
 .mapImage {
   display: block;
   width: 100%;
+  max-height: 800px;
   height: auto;
   border-radius: 1rem;
 }
