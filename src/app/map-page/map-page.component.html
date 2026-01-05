@@ -1,1 +1,52 @@
-<p>map-page works!</p>
+<section class="panel">
+  <h1 class="title"> Begin exploring <br> Middle Earth</h1>
+
+  <div class="controls">
+    <label class="field">
+      <span class="label">Age</span>
+      <select [formControl]="form.controls.ageId">
+        <option *ngFor="let a of ages" [value]="a.id">{{ a.label }}</option>
+      </select>
+    </label>
+
+    <label class="field">
+      <span class="label">Year</span>
+      <input
+        type="number"
+        [min]="minYear"
+        [max]="maxYear"
+        [formControl]="form.controls.year"
+      />
+      <small class="hint">Range: {{ minYear }} – {{ maxYear }}</small>
+    </label>
+
+    <div class="field sliderField">
+      <span class="label">Timeline</span>
+      <input
+        type="range"
+        [min]="minYear"
+        [max]="maxYear"
+        [step]="1"
+        [formControl]="form.controls.year"
+      />
+      <div class="sliderMeta">
+        <span>{{ minYear }}</span>
+        <strong>{{ form.controls.year.value }}</strong>
+        <span>{{ maxYear }}</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="mapView" *ngIf="selectedMapSrc as mapSrc">
+  <img
+    [src]="mapSrc"
+    alt="Middle-earth map for selected age and year"
+    class="mapImage"
+  />
+</section>
+
+<section class="mapView placeholder" *ngIf="!selectedMapSrc">
+  <p>No map available for this period.</p>
+</section>
+
