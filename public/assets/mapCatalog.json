@@ -1,0 +1,25 @@
+{
+  "trees": [
+    { "from": 1,  "to": 2, "src": "assets/maps/yearOfTheTrees/lamps.webp" },
+    { "from": 3, "to": 1050, "src": "assets/maps/yearOfTheTrees/yearTrees1.webp" }
+  ],
+
+  "first": [
+    { "from": 1,  "to": 300, "src": "assets/maps/firstAge/firstAge.webp" },
+    { "from": 301, "to": 590, "src": "assets/maps/firstAge/lateFirstAge.webp" }
+  ],
+
+  "second": [
+    { "from": 1,  "to": 1600, "src": "assets/maps/secondAge/numenor.webp" },
+    { "from": 1601, "to": 3441, "src": "assets/maps/secondAge/latesecondage.webp" }
+  ],
+
+  "third": [
+    { "from": 1,  "to": 1500, "src": "assets/maps/thirdAge/thirdAge.webp" },
+    { "from": 1501, "to": 3021, "src": "assets/maps/thirdAge/lateThirdage.webp" }
+  ],
+
+  "fourth": [
+    { "from": 1,  "to": 2, "src": "assets/maps/fourthAge/fourthAge.webp" }
+  ]
+}

@@ -1,0 +1,19 @@
+.welcomeText{
+  text-align: center;
+  padding: 5px;
+}
+
+
+//////////////////////////////////Explore Button////////////////////////////////
+.exploreButton{
+  text-align: center;
+}
+
+.exploreButton button{
+  background-color: rgb(120, 131, 26);
+  color: rgb(116, 224, 130);
+}
+
+.exploreButton button:hover{
+  cursor: pointer;
+}
