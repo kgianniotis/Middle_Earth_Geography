@@ -21,5 +21,17 @@
 
   "fourth": [
     { "from": 1,  "to": 2, "src": "assets/maps/fourthAge/fourthAge.webp" }
+  ],
+
+  "complete": [
+    { "from": 1,  "to": 2, "src": "assets/maps/yearOfTheTrees/lamps.webp" },
+    { "from": 3, "to": 1050, "src": "assets/maps/yearOfTheTrees/yearTrees1.webp" },
+    { "from": 1051,  "to": 1351, "src": "assets/maps/firstAge/firstAge.webp" },
+    { "from": 1352, "to": 1641, "src": "assets/maps/firstAge/lateFirstAge.webp" },
+    { "from": 1642,  "to": 3242, "src": "assets/maps/secondAge/numenor.webp" },
+    { "from": 3243, "to": 5083, "src": "assets/maps/secondAge/latesecondage.webp" },
+    { "from": 5084,  "to": 6584, "src": "assets/maps/thirdAge/thirdAge.webp" },
+    { "from": 6585, "to": 8105, "src": "assets/maps/thirdAge/lateThirdage.webp" },
+    { "from": 8106,  "to": 8107, "src": "assets/maps/fourthAge/fourthAge.webp" }
   ]
 }

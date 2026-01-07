@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import mapCatalog from '../../../public/assets/mapCatalog.json';
 
-type AgeId = 'trees' |'first' | 'second' | 'third' | 'fourth';
+type AgeId = 'trees' |'first' | 'second' | 'third' | 'fourth' | 'complete';
 
 type MapPeriod = {
   from: number;
@@ -29,6 +29,7 @@ const AGES: Age[] = [
   { id: 'second', label: 'Second Age', startYear: 1,    endYear: 3441 },
   { id: 'third',  label: 'Third Age',  startYear: 1,    endYear: 3021 },
   { id: 'fourth', label: 'Fourth Age', startYear: 1,    endYear: 2  },
+  { id: 'complete', label: 'Complete', startYear: 1,    endYear: 8107  },
 ];
 
 function clamp(n: number, min: number, max: number) {
